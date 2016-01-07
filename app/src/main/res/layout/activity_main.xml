@@ -12,5 +12,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/helloTV"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Russia!"
+        android:layout_toRightOf="@id/helloTV"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        />
+
+
+
 </RelativeLayout>

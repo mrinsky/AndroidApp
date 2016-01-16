@@ -35,6 +35,27 @@
         android:id="@+id/findMe"
         android:layout_margin="55dp"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorRed"
+        android:id="@+id/buttonRed"
+        android:layout_below="@id/findMe"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorBlue"
+        android:id="@+id/buttonBlue"
+        android:layout_below="@id/buttonRed"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorGray"
+        android:id="@+id/buttonGray"
+        android:layout_below="@id/buttonBlue"
+        />
 
 
 

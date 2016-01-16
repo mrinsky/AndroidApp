@@ -2,4 +2,7 @@
     <string name="app_name">AndroidApp</string>
     <string name="b_text">BacgColor</string>
     <string name="buttFindMe">FindMe</string>
+    <string name="colorRed">Red</string>
+    <string name="colorBlue">Blue</string>
+    <string name="colorGray">Gray</string>
 </resources>

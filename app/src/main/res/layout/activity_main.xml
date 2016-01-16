@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,35 +8,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mihail.mrinsky.androidapp.Main"
-    android:orientation="vertical"
-    >
+    android:id="@+id/relativiveLayout">
 
-    <LinearLayout
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:id="@+id/helloTV"/>
-        <TextView
-            android:layout_width = "wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello from Russia!"
+        android:text="Hello World!"
+        android:id="@+id/helloTV"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Russia!"
+        android:layout_toRightOf="@id/helloTV"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_text"
+        android:id="@+id/screenColor"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttFindMe"
+        android:id="@+id/findMe"
+        android:layout_margin="55dp"
+        />
 
-            />
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="button"
-            android:layout_below="@id/helloTV"/>
-
-    </LinearLayout>
 
 
-
-
-
-</LinearLayout>
+</RelativeLayout>

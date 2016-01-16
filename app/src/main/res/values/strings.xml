@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidApp</string>
+    <string name="b_text">BacgColor</string>
+    <string name="buttFindMe">FindMe</string>
 </resources>

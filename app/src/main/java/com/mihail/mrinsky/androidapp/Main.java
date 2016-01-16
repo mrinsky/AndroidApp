@@ -1,5 +1,6 @@
 package com.mihail.mrinsky.androidapp;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +20,7 @@ public class Main extends AppCompatActivity {
         screenColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                relativeLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
+                relativeLayout.setBackgroundColor(Color.CYAN); //Цвет не через getResourse а через константу
             }
         });
     }

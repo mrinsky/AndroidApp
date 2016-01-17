@@ -34,6 +34,7 @@
         android:text="@string/buttFindMe"
         android:id="@+id/findMe"
         android:layout_margin="55dp"
+        android:textColor="CYAN"
         />
 
 
